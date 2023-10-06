@@ -3,7 +3,7 @@ import { Square } from "./Square";
 export function WinnerModal ( {winner, resetGame} ){
     if(winner === null) return null
 
-    const winnerText = winner == false ? "Empate" : "Gano:";
+    const winnerText = winner == false ? "Draw" : "Winner:";
 
     return (
         <section className="winner">
@@ -19,7 +19,7 @@ export function WinnerModal ( {winner, resetGame} ){
                 </header>
 
                 <footer>
-                    <button onClick={resetGame}>Empezar de nuevo</button>
+                    <button onClick={resetGame}>Start again</button>
                 </footer>
 
             </div>

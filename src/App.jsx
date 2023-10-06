@@ -42,9 +42,9 @@ function App() {
   return (
     <>
     <main className="board">
-      <h1>TRIQUI </h1>
+      <h1>Tic Tac Toe</h1>
       <footer>
-        <button onClick={resetGame}>Empezar de nuevo</button>
+        <button onClick={resetGame}>Start again</button>
       </footer>
       <section className="game">
         {
